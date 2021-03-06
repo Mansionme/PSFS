@@ -1,0 +1,23 @@
+<!-- extends表明此页面继承自 base.html 文件 -->
+{% extends "base.html" %}
+{% block title %}
+    主页
+{% endblock title %}
+
+	{% block content %}
+	
+	<div class="container" style="background-color: #F2F2F2;width: 800px;">
+			<div class="row">
+			<div class="col-md-12 ">
+			<div class="jumbotron">
+  <h1>欢迎使用本系统！</h1>
+  <p>本系统为贫困生认定系统，基于机器学习、深度学习方法，采
+用多个弱学习模型相融合的思路，建立了一个有监督学习模型，能够较为准确地识别出家庭困难地学生</p>
+  <p>在得到结果之前，请先填写一个简易的表单</p>
+  <p><a class="btn btn-primary btn-lg" href="/index/" role="button">点我开始</a></p>
+</div>
+			</div>
+			</div>
+
+		</div>
+{% endblock content %}

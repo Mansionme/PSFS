@@ -1,0 +1,10 @@
+由于我的Mac上没有办法进行tensorflow的安装，故最后的结果数据我是用的假数据来处理的（当然此项目中已经替换为了真数据）
+
+使用方法
+1.pip install Django==1.11.22  (注意一定是1.11.22版本不然会加载不了tensorflow 如果仍然报错，检查tf版本是否为2.x)
+
+2.cd到project01目录下 python manage.py runserver
+
+3.按住ctrl键点击django服务器地址，即可进入主页
+
+4.data数据是django自动生成的，每提交一次表单便刷新一次，建议在使用时关闭Excel（Excel读写不能同时进行！）避免出现bug或结果错误

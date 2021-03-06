@@ -1,0 +1,29 @@
+<!-- extends表明此页面继承自 base.html 文件 -->
+{% extends "base.html" %}
+{% block title %}
+    结果分析
+{% endblock title %}
+
+	{% block content %}
+	
+	<div class="container" style="background-color: #F2F2F2;width: 800px;">
+			<div class="row">
+			<div class="col-md-12 ">
+			<div class="jumbotron">
+  <h3>由模型分析，判断结果如下:</h3>
+  <br>
+  <p>您提交的数据表明，该学生有{{p_probability}}的概率符合贫困生标准，{{n_probability}}的概率不符合贫困生标准</p>
+  {% if flag %}
+  
+  <p style="color:red">该生不是贫困生</p>
+  {% else %}
+  <p style="color:green">该生是贫困生</p>
+  {% endif %}
+  <p><a class="btn btn-primary btn-lg" href="/index/" role="button">点击回到上一页</a></p>
+  
+</div>
+			</div>
+			</div>
+
+		</div>
+{% endblock content %}
