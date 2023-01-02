@@ -4,7 +4,7 @@ This code is created to distinguish university students having financial difficu
  (MACHINE LEARNING & DEEP LEARNING MODELING PART)
 Created on Tue Mar  2 07:43:59 2021
 
-@author: Zjx2019
+
 """
 
 import pandas as pd
