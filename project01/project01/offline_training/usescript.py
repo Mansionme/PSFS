@@ -4,7 +4,7 @@ This code is created to distinguish university students having financial difficu
  (USING MODEL PART)
 Created on Tue Mar  2 11:52:27 2021
 
-@author: Zjx2019
+
 """
 
 
