@@ -4,7 +4,7 @@ This code is created to distinguish university students having financial difficu
  (EDA (EXPLORATORY DATA ANALYSIS) PART)
 Created on Tue Mar  2 11:52:27 2021
 
-@author: Zjx2019
+
 """
 
 import numpy as np
